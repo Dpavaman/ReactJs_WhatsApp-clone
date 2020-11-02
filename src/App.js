@@ -11,15 +11,8 @@ import { useStateValue } from './Components/StateProvider/StateProvider';
 
 function App() {
 
-
-  var alreadyLoggedIn = "";
   const [fetchedMessages, setFetchedMessages] = useState([]);
-  const [{ user }, dispatch] = useStateValue();
-
-  useEffect(() => {
-    alreadyLoggedIn = window.localStorage.getItem("loginToken");
-    
-  }, [])
+  const [{ user }] = useStateValue();
 
 
   useEffect(() => {

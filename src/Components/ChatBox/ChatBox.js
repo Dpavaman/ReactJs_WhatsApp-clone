@@ -16,7 +16,7 @@ const ChatBox = ({ fetchedConversations }) => {
     const [input, setInput] = useState("")
     const [activeRoom, setActiveRoom] = useState('')
     const [activeRoomConversations, setActiveRoomConversations] = useState([])
-    const [{ user }, dispatch] = useStateValue();
+    const [{ user }] = useStateValue();
     const [showPopup, setShowPopup] = useState(false);
 
 
