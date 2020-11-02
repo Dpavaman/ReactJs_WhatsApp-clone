@@ -29,7 +29,7 @@ const Login = () => {
                     <h1>Signin to WhatsApp</h1>
                 </div>
                 <GoogleLogin
-                    clientId="879718281314-uvmb5o1oauk5iaq8l6l0mv5pua0ff1sb.apps.googleusercontent.com"
+                    clientId="33206694070-3guk27fi41po43h3d4e7pacj66aiejqn.apps.googleusercontent.com"
                     buttonText="Signin with Google"
                     onSuccess={googleSuccessResponse}
                     onFailure={googleFailureResponse}
