@@ -7,7 +7,7 @@ const Popup = ({ togglePopup }) => {
     const signOut = () => {
         window.localStorage.removeItem("loginToken");
         window.localStorage.removeItem('userImage');
-        window.location.replace("dpavaman-whatsapp-clone.netlify.app")
+        window.location.replace("")
     }
 
     return (
