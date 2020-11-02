@@ -3,7 +3,7 @@ import axios from 'axios';
 
 
 const Instance = axios.create({
-    baseURL: 'https://pavaman-whatsapp-clone-backend.herokuapp.com/'
+    baseURL: 'https://pavaman-whatsapp-clone-backend.herokuapp.com'
 })
 
 export default Instance
